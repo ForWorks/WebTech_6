@@ -1,0 +1,48 @@
+body {
+    background-color: #ba00ff;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+form {
+    margin: 0 auto;
+    width: 290px;
+    padding: 20px 20px 10px 20px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    word-wrap: break-word;
+    color: #ba00ff;
+}
+
+.background_color, .font_color, .font_size {
+    display: flex;
+}
+
+p {
+    margin-top: 3px;
+}
+
+.color {
+    width: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.number {
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+    outline: 0;
+    cursor: pointer;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    background-color: #ba00ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
